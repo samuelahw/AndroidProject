@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">androidprojekti2</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Games</string>
+    <string name="second_fragment_label">Deals</string>
+    <string name="third_fragment_label">Filter</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="refreshText">Refresh</string>
+    <string name="SearchTitle">Search</string>
+    <string name="GameNameSearch">Game name</string>
+    <string name="ExactValue">Exact</string>
+    <string name="ExactTitle">Exact Title</string>
+    <string name="currentDeals">Current deals below</string>
+    <string name="storeText">Store</string>
+    <string name="normalPriceText">Normal Price</string>
+    <string name="dealPriceText">Deal Price</string>
+    <string name="FilterText">Filters</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Third_fragment_label" />
+    <string name="ApplyValue">Apply</string>
+    <string name="checkDeal">Check deals here</string>
+    <string name="BackText">Back</string>
+    <string name="ResetText">Reset</string>
+    <string name="MoreText">More</string>
+</resources>
