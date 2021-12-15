@@ -14,6 +14,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+//Adapter class for FirstFragment recyclerview.
+
 public class Adaptery extends RecyclerView.Adapter<Adaptery.MyViewHolder>{
 
     private final SelectListener selectListener;

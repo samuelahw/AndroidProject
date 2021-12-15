@@ -8,6 +8,7 @@ import androidx.lifecycle.AndroidViewModel;
 import java.util.ArrayList;
 import java.util.List;
 
+//Deal data list class which can be used between fragments.
 public class DealDataList extends AndroidViewModel {
 
     private List<DealModelClass> lista;

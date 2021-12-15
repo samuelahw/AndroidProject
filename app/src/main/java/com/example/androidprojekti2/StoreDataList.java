@@ -8,6 +8,7 @@ import androidx.lifecycle.AndroidViewModel;
 import java.util.ArrayList;
 import java.util.List;
 
+//Store data list class which can be used between fragments.
 public class StoreDataList extends AndroidViewModel {
 
     private List<StoreDataModel> storeList;

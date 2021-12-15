@@ -14,6 +14,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+//Adapter for secondfragment recyclerview.
 public class ExtrasAdaptery extends RecyclerView.Adapter<ExtrasAdaptery.MyViewHolder>{
 
     private final SelectListener selectListener;

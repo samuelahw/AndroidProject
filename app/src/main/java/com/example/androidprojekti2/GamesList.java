@@ -8,6 +8,7 @@ import androidx.lifecycle.AndroidViewModel;
 import java.util.ArrayList;
 import java.util.List;
 
+//Games list class which can be used between fragments
 public class GamesList extends AndroidViewModel {
 
     private List<GameModelClass> gameList;

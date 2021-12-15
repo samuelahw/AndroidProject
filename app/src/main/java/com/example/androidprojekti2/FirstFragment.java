@@ -183,6 +183,7 @@ public class FirstFragment extends Fragment implements SelectListener{
         binding = null;
     }
 
+    //Method which put Game data into recyclerview
     private void PutDataIntoRecyclerView(GamesList listOfGames){
         adaptery = new Adaptery(this.getContext(), listOfGames.getGameList(), this);
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getContext()));
@@ -196,6 +197,7 @@ public class FirstFragment extends Fragment implements SelectListener{
                 .navigate(R.id.action_FirstFragment_to_SecondFragment);
     }
 
+    //API call for storedata
     public void getStoreData(){
         RequestQueue queue = Volley.newRequestQueue(getActivity());
 
@@ -243,6 +245,7 @@ public class FirstFragment extends Fragment implements SelectListener{
         queue.add(request);
     }
 
+    //API call for game data
     public void getMoreGameData(){
         RequestQueue queue = Volley.newRequestQueue(getActivity());
         String url = filter.getUrl()+ gamelist.getPage();
